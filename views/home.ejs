@@ -12,6 +12,7 @@
             </h1>
             <p>
                 <%= posts[i].content.slice(0,100)+"..."%>
+                    <a href="/posts/<%= posts[i].title %>">Read more</a>
             </p>
             <% }%>
     </p>
